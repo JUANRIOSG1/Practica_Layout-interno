@@ -1,0 +1,23 @@
+.outer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+}
+
+.outer-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.inner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+}
+
+.inner-item {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
